@@ -118,6 +118,7 @@ background-color: #E95793;
         width: auto;
         margin: 0%;
         padding: 0%;
+         background-color:#E19898
     }
     .choices {
         flex-direction: row;
@@ -133,6 +134,7 @@ background-color: #E95793;
         width: auto;
         margin: 0%;
         padding: 0%;
+         background-color:#E19898
     }
     .choice {
         width: 100%;
