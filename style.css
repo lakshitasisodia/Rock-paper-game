@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F0F0F;
+    background-color:#E19898 ;
+}
+.choices{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.choice{
+    height: 100px;
+    width: auto;
+    border: none;
+    
+}
+#rock{
+    height:100px;
+    
+}
+#paper{
+    height: 100px;
+}
+#scissors{
+    height: 100px;
+}
+.score-board{
+   
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+.score{
+    height: 50px;
+    width: 200px;
+     margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+   
+  
+}
+.your-score{
+    margin-top: 50px;
+    height: 50px;
+    width: 70px;
+    display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color:#0F0F0F ;
+   
+}
+.comp-score{
+    margin-top: 50px;
+    height: 50px;
+    width: 70px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#you-score{
+    margin-top: 20px;
+    font-size: 50px;
+}
+#com-score{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#name-you{
+    margin-top: -50px;
+}
+.msgcontainer{
+    height: 100px;
+    width: 300px;
+border: 1px solid black;
+margin-top: 30px;
+display: flex;
+font-weight: bolder;
+color: aliceblue;
+justify-content: center;
+align-items: center;
+box-shadow: 0 0 0.8rem #E95793;
+background-color: #E95793;
+}
+.reset{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    h1{
+        height: auto;
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+    .choices {
+        flex-direction: row;
+        margin-right: 0%;
+        gap: 5px;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1{
+        height: auto;
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+    .choice {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .score {
+        flex-direction: row;
+    }
+}
